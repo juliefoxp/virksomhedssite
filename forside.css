@@ -23,6 +23,9 @@
 .grid_1-1-1 {
   padding: 60px;
 }
+.grid_1-1-1-1-1 {
+  margin: 20px;
+}
 
 button {
   border-style: rgba(1, 76, 143, 1);
@@ -31,4 +34,22 @@ button {
 }
 h1 {
   color: rgba(4, 15, 142, 1);
+  text-align: center;
+  margin: 20px;
+}
+.taverna_img {
+  display: block; /* Gør billedet til et blok-element */
+  margin-left: auto; /* Automatiske marginer på venstre side */
+  margin-right: auto; /* Automatiske marginer på højre side */
+}
+/* MEDIA - DESKTOP */
+@media (min-width: 700px) {
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid_1-1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
