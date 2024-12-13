@@ -42,6 +42,38 @@ h1 {
   margin-left: auto; /* Automatiske marginer på venstre side */
   margin-right: auto; /* Automatiske marginer på højre side */
 }
+.harmonika_section {
+  margin-bottom: 10px; /*mellemrum i mellem boksene*/
+  padding: 10px;
+}
+
+/* Skjul de faktiske checkboxes */
+.harmonika_section input[type="checkbox"] {
+  display: none;
+}
+
+/* Styling af labelen (som fungerer som knappen til at åbne sektionen) */
+.harmonika_section label {
+  display: block;
+  color: blue;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid blue;
+}
+
+/* Styling af indholdet */
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background-color: rgb(201, 200, 194);
+  border: 1px solid blue;
+  margin-top: 5px;
+}
+
+/* Når checkboxen er valgt, vises indholdet */
+.harmonika_section input[type="checkbox"]:checked + label + .accordion-content {
+  display: block;
+}
 /* MEDIA - DESKTOP */
 @media (min-width: 700px) {
   .grid_1-1-1 {
