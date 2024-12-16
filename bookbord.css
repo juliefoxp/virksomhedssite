@@ -2,11 +2,11 @@ h1 {
   font-size: 50px;
   padding: 50px;
   font-family: "Kalnia", serif;
-  color: #002fd9;
+  color: #014c8f;
 }
 
 p {
-  color: #002fd9;
+  color: #014c8f;
   font-size: 20px;
 }
 
@@ -16,7 +16,7 @@ p {
 
 .underline {
   display: inline-block; /* Sørger for, at linjen kun dækker teksten */
-  border-bottom: 2px solid #002fd9; /* Stregens tykkelse, farve og stil */
+  border-bottom: 2px solid #014c8f; /* Stregens tykkelse, farve og stil */
   margin-bottom: 10px; /* Justerer afstanden under linjen */
   padding-bottom: 80px; /* Justerer afstanden mellem tekst og linje */
   text-transform: uppercase; /* Gør teksten til store bogstaver */
