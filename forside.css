@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .col {
   border-style: rgba(91, 139, 172, 1);
@@ -65,7 +64,7 @@ h1 {
 .accordion-content {
   display: none;
   padding: 15px;
-  background-color: rgb(201, 200, 194);
+  background-color: rgba(242, 241, 237, 1);
   border: 1px solid blue;
   margin-top: 5px;
 }
