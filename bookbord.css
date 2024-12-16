@@ -2,10 +2,21 @@
   display: inline-block; /* Sørger for, at linjen kun dækker teksten */
   border-bottom: 2px solid #002fd9; /* Stregens tykkelse, farve og stil */
   margin-bottom: 10px; /* Justerer afstanden under linjen */
-  padding-bottom: 5px; /* Justerer afstanden mellem tekst og linje */
+  padding-bottom: 90px; /* Justerer afstanden mellem tekst og linje */
   text-transform: uppercase; /* Gør teksten til store bogstaver */
+}
+
+h1 {
+  font-size: 50px;
+  padding: 50px;
+  font-family: "Kalnia", serif;
 }
 
 p {
   color: #002fd9;
+  font-size: 20px;
+}
+
+.overskrift {
+  text-align: center;
 }
