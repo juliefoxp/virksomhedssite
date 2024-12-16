@@ -1,14 +1,38 @@
+html {
+  --farve1: #040f8e;
+  --farve2: #014c8f;
+  --farve3: #5b8bac;
+  --farve4: #f2f1ed;
+  --farve5: #e14801;
+}
+
 body {
-  background-color: rgba(242, 241, 237, 1);
+  background-color: var(--farve4);
 }
 
 h1 {
-  font-family: "Kalnia", serif;
+  font-family: Kalnia;
+  color: var(--farve1);
+}
+
+h2 {
+  font-family: Pompiere;
+  color: var(--farve2);
+}
+
+h3 {
+  font-family: Rufina;
+  color: var(--farve2);
+}
+
+p {
+  font-family: Rufina;
+  color: var(--farve4);
 }
 
 .understreg {
   display: inline-block; /* Sørger for, at linjen kun dækker teksten */
-  border-bottom: 2px solid #ffffff; /* Stregens tykkelse, farve og stil */
+  border-bottom: 2px solid var(--farve4); /* Stregens tykkelse, farve og stil */
   margin-bottom: 10px; /* Justerer afstanden under linjen */
   padding-bottom: 5px; /* Justerer afstanden mellem tekst og linje */
   text-transform: uppercase; /* Gør teksten til store bogstaver */
