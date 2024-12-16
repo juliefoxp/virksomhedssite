@@ -8,6 +8,7 @@ html {
 
 body {
   background-color: var(--farve4);
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 h1 {
