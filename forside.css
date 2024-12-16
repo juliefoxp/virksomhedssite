@@ -31,14 +31,9 @@ button {
   border-radius: 30px;
   color: white;
 }
-h1 {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin: 20px;
-}
 
-.h1-2 {
-  color: rgba(1, 76, 143, 1);
+#h1-2 {
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: 20px;
 }
