@@ -65,10 +65,10 @@ p {
 /* Styling af labelen (som fungerer som knappen til at åbne sektionen) */
 .harmonika_section label {
   display: block;
-  color: blue;
+  color: rgba(1, 76, 143, 1);
   padding: 15px;
   font-size: 16px;
-  border: 1px solid blue;
+  border: 1px solid rgba(1, 76, 143, 1);
 }
 
 /* Styling af indholdet */
@@ -76,7 +76,7 @@ p {
   display: none;
   padding: 15px;
   background-color: rgba(242, 241, 237, 1);
-  border: 1px solid blue;
+  border: 1px solid rgba(1, 76, 143, 1);
   margin-top: 5px;
 }
 
