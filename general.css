@@ -3,6 +3,13 @@ body {
 }
 
 h1 {
-  color: #002fd9;
   font-family: "Kalnia", serif;
+}
+
+.understreg {
+  display: inline-block; /* Sørger for, at linjen kun dækker teksten */
+  border-bottom: 2px solid #ffffff; /* Stregens tykkelse, farve og stil */
+  margin-bottom: 10px; /* Justerer afstanden under linjen */
+  padding-bottom: 5px; /* Justerer afstanden mellem tekst og linje */
+  text-transform: uppercase; /* Gør teksten til store bogstaver */
 }
