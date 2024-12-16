@@ -47,6 +47,10 @@ p {
   color: white;
 }
 
+.bokstekst {
+  color: rgba(1, 76, 143, 1);
+}
+
 .taverna_img {
   display: block; /* Gør billedet til et blok-element */
   margin-left: auto; /* Automatiske marginer på venstre side */
