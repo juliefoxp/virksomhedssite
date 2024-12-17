@@ -65,4 +65,8 @@ option {
   border: none;
   border-radius: 30px;
   font-family: "Kalnia", serif;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
 }
