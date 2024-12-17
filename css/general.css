@@ -85,7 +85,7 @@ nav {
   margin-right: 20px;
   font-family: Kalnia;
   font-size: 200%;
-  text-align: end;
+  place-self: end;
 }
 
 .menu li:last-child {
