@@ -83,6 +83,10 @@ p {
 .harmonika_section input[type="checkbox"]:checked + label + .accordion-content {
   display: block;
 }
+h1 {
+  text-align: center;
+  padding: 10px;
+}
 /* MEDIA - DESKTOP */
 @media (min-width: 700px) {
   .grid_1-1-1 {
@@ -91,6 +95,6 @@ p {
   }
   .grid_1-1-1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
   }
 }
