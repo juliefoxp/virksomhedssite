@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_kort {
+  width: 100%;
+}
+/* MEDIA - DESKTOP */
+@media (min-width: 700px) {
+  .menu_kort {
+    width: 60%;
+  }
+}
