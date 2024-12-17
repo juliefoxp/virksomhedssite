@@ -10,8 +10,31 @@
     <title>Forside</title>
   </head>
   <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/taverna.png" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="menukort.html">MENU</a></li>
+          <li><a href=".html">KONTAKT</a></li>
+          <li><a href=".html">OM OS</a></li>
+          <li><button id="menubookbordknap">BOOK BORD</button></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
     <section>
-      <div class="Hero"></div>
+      <div id="hero">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="https://lottie.host/8d2f6f8b-d504-4299-ae44-e466da86924c/l70iF2BddJ.lottie" background="transparent" speed="0.5" loop autoplay></dotlottie-player>
+      </div>
     </section>
     <main>
       <section>
@@ -71,5 +94,6 @@
         </div>
       </section>
     </main>
+    <script src="js/menu.js"></script>
   </body>
 </html>

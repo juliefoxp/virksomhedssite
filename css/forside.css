@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 .col {
   background-color: var(--farve3);
   margin: 1rem;
   padding: 2rem;
-  min-width: 400px;
-  height: 300px;
+  /* min-width: 350px;
+  height: 300px; */
   border-radius: 50px;
   text-align: center;
   text-align: justify;
@@ -18,7 +19,8 @@
 }
 
 .grid_1-1-1 {
-  padding: 60px;
+  padding: 1rem;
+  place-content: center;
 }
 .grid_1-1-1-1-1 {
   margin: 20px;
@@ -85,6 +87,7 @@ p {
 .harmonika_section input[type="checkbox"]:checked + label + .accordion-content {
   display: block;
 }
+
 /* MEDIA - DESKTOP */
 @media (min-width: 700px) {
   .grid_1-1-1 {
