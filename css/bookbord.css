@@ -72,10 +72,6 @@ option {
 }
 
 @media (max-width: 700px) {
-  h1 {
-    font-size: 50px;
-  }
-
   body {
     margin: 100px;
   }
