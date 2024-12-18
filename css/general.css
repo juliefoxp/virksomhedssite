@@ -61,13 +61,13 @@ button {
 }
 
 #trustpilot {
-  width: 35%;
+  width: 20%;
   cursor: pointer;
 }
 
 #fb {
   justify-self: end;
-  width: 10%;
+  width: 5%;
   cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ nav {
   color: var(--farve5);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   header {
     display: none;
   }
@@ -168,7 +168,6 @@ header {
 .logo img {
   width: 30%;
   height: 100%;
-  margin-top: 10px;
 }
 
 nav {
@@ -221,7 +220,7 @@ nav {
 .burger {
   display: none;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1215px) {
   .menu {
     display: none;
   }
