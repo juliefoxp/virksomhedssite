@@ -7,6 +7,11 @@
 .menu_kort {
   width: 100%;
 }
+
+.mainmellemrum {
+  margin: 5rem 0 0 0;
+}
+
 /* MEDIA - DESKTOP */
 @media (min-width: 700px) {
   .menu_kort {
