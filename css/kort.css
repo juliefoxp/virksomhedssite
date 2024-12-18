@@ -4,6 +4,7 @@
   border-radius: 2rem;
   margin: 1rem;
   border: solid var(--farve1);
+  vertical-align: center;
 }
 
 #h1kontakt {
