@@ -51,8 +51,8 @@ select {
   float: right;
 }
 
-body {
-  margin: 400px;
+.mainbook {
+  margin: 300px;
 }
 
 option {
