@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+h1,
+p {
+  margin: 1rem;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows of equal height */
+  gap: 10px; /* Space between the squares */
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media (min-width: 767px) {
+  .grid_1-1 {
+    display: flex;
+    justify-content: space-between; /* Space between the text and the image */
+    align-items: flex-start; /* Aligns both text and image at the top */
+    max-width: 1200px; /* Maximum width */
+    margin: 1rem auto; /* Center the grid */
+    padding: 0 20px; /* Optional padding */
+    gap: 7rem;
+  }
+
+  .img {
+    width: 50%; /* Make the image take up 50% of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px;
+  }
+  h1 {
+    margin-bottom: 20px; /* Space below the <h1> */
+    font-size: 4rem;
+  }
+
+  p {
+    margin-top: 10px; /* Space above the <p> */
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for desktop */
+    gap: 10px; /* Space between the images */
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
