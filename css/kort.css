@@ -1,0 +1,25 @@
+#kort {
+  width: 95%;
+  height: 95%;
+  border-radius: 2rem;
+  margin: 1rem;
+  border: solid var(--farve1);
+  vertical-align: center;
+}
+
+#h1kontakt {
+  text-align: center;
+}
+
+.h3kontakt {
+  text-align: center;
+}
+
+#findos {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#pkontakt {
+  text-align: center;
+}

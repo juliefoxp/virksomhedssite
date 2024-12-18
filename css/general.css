@@ -48,6 +48,25 @@ button {
   text-transform: uppercase; /* Gør teksten til store bogstaver */
 }
 
+/* Footer */
+.footergrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: solid var(--farve1);
+  padding-top: 0.5rem;
+}
+
+#trustpilot {
+  width: 35%;
+  cursor: pointer;
+}
+
+#fb {
+  justify-self: end;
+  width: 10%;
+  cursor: pointer;
+}
+
 /*************** Menu ****************/
 
 header {
@@ -197,7 +216,7 @@ nav {
 .burger {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
   .menu {
     display: none;
   }
