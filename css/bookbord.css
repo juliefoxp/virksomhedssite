@@ -81,7 +81,7 @@ option {
 }
 
 @media (max-width: 700px) {
-  body {
-    margin: 100px;
+  .mainbook {
+    margin: 2rem 1rem 1rem 1rem;
   }
 }
