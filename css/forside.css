@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 .col {
-  border-style: rgba(91, 139, 172, 1);
-  background-color: rgba(91, 139, 172, 1);
-  margin: 20px;
-  padding: 20px;
-  min-width: 400x;
-  height: 300px;
+  background-color: var(--farve3);
+  margin: 1rem;
+  padding: 2rem;
+  /* min-width: 350px;
+  height: 300px; */
   border-radius: 50px;
   text-align: center;
   text-align: justify;
@@ -19,23 +19,29 @@
 }
 
 .grid_1-1-1 {
-  padding: 60px;
+  padding: 1rem;
+  place-content: center;
 }
 .grid_1-1-1-1-1 {
   margin: 20px;
 }
 
 button {
-  border-style: rgba(1, 76, 143, 1);
-  background-color: rgba(1, 76, 143, 1);
-  border-radius: 30px;
-  color: white;
+  background-color: var(--farve2);
+  padding: 0.5rem;
+  border: solid var(--farve4);
+  border-radius: 1rem;
 }
 
 #h1-2 {
-  color: rgb(255, 255, 255);
+  color: var(--farve4);
   text-align: center;
-  margin: 20px;
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 1.5rem 0rem 0.5rem 0rem;
 }
 
 p {
@@ -43,7 +49,7 @@ p {
 }
 
 .bokstekst {
-  color: rgba(1, 76, 143, 1);
+  color: var(--farve2);
 }
 
 .taverna_img {
@@ -52,8 +58,8 @@ p {
   margin-right: auto; /* Automatiske marginer på højre side */
 }
 .harmonika_section {
-  margin-bottom: 10px; /*mellemrum i mellem boksene*/
-  padding: 10px;
+  margin-bottom: 0.1rem; /*mellemrum i mellem boksene*/
+  padding: 0.1rem;
 }
 
 /* Skjul de faktiske checkboxes */
@@ -64,19 +70,17 @@ p {
 /* Styling af labelen (som fungerer som knappen til at åbne sektionen) */
 .harmonika_section label {
   display: block;
-  color: rgba(1, 76, 143, 1);
-  padding: 15px;
-  font-size: 16px;
-  border: 1px solid rgba(1, 76, 143, 1);
+  color: var(--farve1);
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--farve1);
 }
 
 /* Styling af indholdet */
 .accordion-content {
   display: none;
-  padding: 15px;
-  background-color: rgba(242, 241, 237, 1);
-  border: 1px solid rgba(1, 76, 143, 1);
-  margin-top: 5px;
+  padding: 0.5rem 1rem 1rem;
+  margin-top: 0.1rem;
 }
 
 /* Når checkboxen er valgt, vises indholdet */
@@ -91,6 +95,6 @@ p {
   }
   .grid_1-1-1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
   }
 }
