@@ -51,6 +51,7 @@ p {
     height: auto; /* Maintain aspect ratio */
     max-width: 500px;
   }
+
   h1 {
     margin-bottom: 20px; /* Space below the <h1> */
     font-size: 4rem;
