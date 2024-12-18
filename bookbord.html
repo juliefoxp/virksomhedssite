@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Rouge+Script&family=Sancreek&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Parkinsans:wght@300..800&family=Pompiere&family=Quicksand:wght@300..700&family=Rouge+Script&family=Sancreek&display=swap" rel="stylesheet" />
     <title>Book Bord</title>
   </head>
   <body>
@@ -15,6 +19,52 @@
       <div class="overskrift">
         <h1>BOOK BORD</h1>
         <p class="underline" id="underparagraf">Ved reservationer over 10 personer, ring til os på tlf. 35817758</p>
+      </div>
+
+      <div>
+        <h2>VÆLG DATO</h2>
+        <div class="kalender"><img src="img/kalender.png" alt="kalender" width="30px" height="30px" /></div>
+        <div>
+          <form action="/action_page.php">
+            <label for="fname"><h2>ANTAL PERSONER</h2></label>
+            <select id="fname" name="firstname">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+
+            <label for="fname"><h2>VÆLG TID</h2></label>
+            <select id="fname" name="firstname">
+              <option value="16:00">16:00</option>
+              <option value="16:30">16:30</option>
+              <option value="17:00">17:00</option>
+              <option value="17:30">17:30</option>
+              <option value="18:00">18:00</option>
+              <option value="18:30">18:30</option>
+              <option value="19:00">19:00</option>
+              <option value="19:30">19:30</option>
+              <option value="20:00">20:00</option>
+              <option value="20:30">20:30</option>
+              <option value="21:00">21:00</option>
+              <option value="21:30">21:30</option>
+            </select>
+
+            <label for="lname"><h2>DINE OPLYSNINGER</h2></label>
+            <input type="text" id="lname" name="lastname" placeholder="NAVN" />
+            <input type="text" id="lname" name="lastname" placeholder="E-MAIL" />
+            <input type="text" id="lname" name="lastname" placeholder="TELEFON" />
+            <input type="text" id="lname" name="lastname" placeholder="ØVRIGE BEMÆRKNINGER" />
+
+            <input class="book" type="submit" value="BOOK" />
+          </form>
+        </div>
       </div>
     </main>
   </body>
