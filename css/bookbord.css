@@ -84,8 +84,8 @@ option {
   transition: background-color 0.3s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
   .mainbook {
-    margin: 2rem 1rem 1rem 1rem;
+    margin: 2rem 0 0 0;
   }
 }
