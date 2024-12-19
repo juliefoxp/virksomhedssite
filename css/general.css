@@ -4,6 +4,9 @@ html {
   --farve3: #5b8bac;
   --farve4: #f2f1ed;
   --farve5: #e14801;
+
+  max-width: 1300px;
+  margin: auto;
 }
 
 body {
